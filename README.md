@@ -29,5 +29,4 @@ node app.js
 his sample app is available on github <a href='https://github.com/tborges/Node-Express-EJS-Template-Body-Parser'>Sample App</a>
 under <a href='https://github.com/tborges/Node-Express-EJS-Template-Body-Parser/blob/master/LICENSE'>MIT license</a>.
 
-If you hit bugs, fill issues on github [here](https://github.com/tborges/Node-Express-EJS-Template-Body-Parser/issues). <img  src="http://www.smashingbuzz.com/wp-content/uploads/2011/12/Ant-moving-around.gif"  width="9%">
-Feel free to fork, modify and have fun with it :)
+Feel free to fork, modify and have fun with it. If you hit bugs, fill issues on github [here](https://github.com/tborges/Node-Express-EJS-Template-Body-Parser/issues). <img  src="http://www.smashingbuzz.com/wp-content/uploads/2011/12/Ant-moving-around.gif"  width="9%">
