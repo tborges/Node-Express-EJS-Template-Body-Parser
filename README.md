@@ -11,4 +11,4 @@
 
 
 
-<img  src="https://github.com/tborges/Node-Express-EJS-Template-Body-Parser/public/img/Node-Express-EJS-Template-Body-Parser-app.png"  width="100%">
+<img  src="https://raw.githubusercontent.com/tborges/Node-Express-EJS-Template-Body-Parser/master/public/img/Node-Express-EJS-Template-Body-Parser-app.png"  width="100%">
