@@ -1,0 +1,40 @@
+<html>
+    <head>
+<link href="assets/style.css" type="text/css" rel="stylesheet"/>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js" ></script>
+    </head>
+    <body>
+        <h1>Node, Express, EJS Template, Body-Parser</h1>
+        <ul style="display: flex;list-style-type: none; ">
+            <li><a href="/">Home</a></li>
+            <li><a href="/person/TypeYourNameHere">Person</a></li>
+        </ul>
+
+        <!-- body-parser -->
+    <div class="form-content">
+        <center>We are using <code>body-parser</code> here.
+        <br>Submit this form to receive the <br>confirmation message.</center>
+        <form method="POST" action="/person">
+            First Name: <input type="text" id="firstname" name="firstname"/><br/>
+            Last Name: <input type="text" id="lastname" name="lastname"/><br/>
+        <button type="submit" value="Submit"/>Submit</button>
+        </form>
+    </div>
+        <!-- //body-parser -->
+
+    </div>
+        <script>
+            // On load, grab this JSON data and display in the console
+            $.ajax({
+                type:"POST",
+                url:"/personjson",
+                data: JSON.stringify({
+                    firstname:'Jane',
+                    lastname: 'Macaco',
+                }),
+                dataType: 'json',
+                contentType:'application/json'
+            });
+        </script>
+    </body>
+</html>

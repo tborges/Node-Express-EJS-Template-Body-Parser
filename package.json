@@ -1,0 +1,24 @@
+{
+  "name": "course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node-course.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tborges/node-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tborges/node-course/issues"
+  },
+  "homepage": "https://github.com/tborges/node-course#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
