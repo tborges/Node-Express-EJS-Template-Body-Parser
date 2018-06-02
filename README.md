@@ -10,5 +10,23 @@
 
 
 
-
 <img  src="https://raw.githubusercontent.com/tborges/Node-Express-EJS-Template-Body-Parser/master/public/img/Node-Express-EJS-Template-Body-Parser-app.png"  width="100%">
+
+## Running Locally
+
+Make sure you have [Node.js](https://nodejs.org/en/) and the [npm](https://docs.npmjs.com/) installed.
+
+```sh
+git clone git@github.com:tborges/Node-Express-EJS-Template-Body-Parser.git # or clone your own fork
+cd Node-Express-EJS-Template-Body-Parser
+npm install
+node app.js
+```
+
+
+## 
+
+This sample app is available on github <a href='https://github.com/tborges/Node-Express-EJS-Template-Body-Parser'>Sample App</a>
+under <a href='https://github.com/tborges/Node-Express-EJS-Template-Body-Parser/blob/master/LICENSE'>MIT license</a>.
+If you hit bugs, fill issues on github.
+Feel free to fork, modify and have fun with it :)
