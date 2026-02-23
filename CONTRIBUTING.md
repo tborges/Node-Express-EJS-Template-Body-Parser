@@ -1,2 +1,1 @@
-
-Please submit your merge request
+Please submit your pull request.
