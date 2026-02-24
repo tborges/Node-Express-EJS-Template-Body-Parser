@@ -4,7 +4,7 @@
 <script src="https://code.jquery.com/jquery-1.11.3.min.js" ></script>
     </head>
     <body>
-        <h1>Node, Express, EJS Template, Body-Parser</h1>
+        <h1>Minimal Express Starter Kit</h1>
         <ul style="display: flex;list-style-type: none; ">
             <li><a href="/">Home</a></li>
             <li><a href="/person/TypeYourNameHere">Person</a></li>
@@ -12,8 +12,8 @@
 
         <!-- body-parser -->
     <div class="form-content">
-        <center>We are using <code>body-parser</code> here.
-        <br>Submit this form to receive the <br>confirmation message.</center>
+        <center>This starter includes <code>body-parser</code> for handling form data.
+        <br>Submit this form to verify request parsing is wired up correctly.</center>
         <form method="POST" action="/person">
             First Name: <input type="text" id="firstname" name="firstname"/><br/>
             Last Name: <input type="text" id="lastname" name="lastname"/><br/>
