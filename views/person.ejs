@@ -1,17 +1,31 @@
 <html>
     <head>
-<link href="/assets/style.css" type="text/css" rel="stylesheet"/>
+    <link href="/assets/style.css" type="text/css" rel="stylesheet"/>
     </head>
     <body>
             <ul style="display: flex;list-style-type: none; ">
                     <li>&larr;<a href="/">Back</a></li>
             </ul>
 
-        <p>Copy and paste on your URL above &uarr; the following path: <code>http://localhost:3000/person/UserName?querystring=11223344556677889900</code></p>
+        <!-- <p>Copy and paste on your URL above &uarr; the following path: <code>http://localhost:3000/person/UserName?querystring=11223344556677889900</code></p> -->
+        <h1>How To Test This Route</h1>
+
+        <ol>
+            <li>Replace UserName with any value.</li>
+            <li>Change the querystring number.</li>
+            <li>Observe how both values are rendered dynamically.</li>
+        </ol>
         
+        <h2>Example: This demonstrates Express route params and query parsing.</h2>
+        <code>http://localhost:3000/person/redlight?querystring=12345</code>
+        <p></p>
+
         <!-- EJS Embedded Javascript -->
-        <h1>Person: <%= ID %></h1>
-        <h1>My QUERYSTRING is: <%= QUERYSTRING %></h1>
+        <div class="background">
+        <small>This page demonstrates how Express captures dynamic route parameters and query string values, then injects them into an EJS template for rendering.</small>
+        <p>Person: <%= ID %></p>
+        <p>My QUERYSTRING is: <%= QUERYSTRING %></p>
+        </div>
         <!-- //EJS Embedded Javascript -->
 
     </body>
