@@ -1,26 +1,51 @@
-# Node, Express, EJS Template, Body-Parser - Sample App
+# Minimal Express Starter Kit
 
-###### _In this sample app_, we're using <br>
+A lightweight starter kit for building server-rendered Node.js apps with Express and EJS.
 
- - Node.js [<img  src="https://cdn2.iconfinder.com/data/icons/nodejs-1/256/nodejs-256.png" width="4%">](https://nodejs.org/en/) 
- - Express [<img  src="https://raygun.com/images/language-template/tiles/languages/javascript.svg" width="3%">](http://expressjs.com/)
- - Embedded JavaScript templating (EJS) [<img  src="https://s3.amazonaws.com/ciranda/entities/1/440727418fa168f705ebf17432805c04f82227e2.png" width="9%">](http://ejs.co/)
- - Body-Parser [<img src="https://sitecore.myget.org/Content/images/packageDefaultIcon_npm.png" width="4%">](https://www.npmjs.com/package/body-parser)
+## What’s included
 
+- **Express** for routing and middleware
+- **EJS** for server-side templates
+- **Body-parser** for URL-encoded and JSON request payloads
+- **Static asset serving** from `public/`
+- **Example routes** for pages and API endpoints
 
+## Quick start
 
-<img  src="https://raw.githubusercontent.com/tborges/Node-Express-EJS-Template-Body-Parser/master/public/img/Node-Express-EJS-Template-Body-Parser-app.png"  width="100%">
-
-## Running Locally
-
-Make sure you have [Node.js](https://nodejs.org/en/) and [npm](https://docs.npmjs.com/) installed.
+Make sure you have [Node.js](https://nodejs.org/) and npm installed.
 
 ```sh
-git clone git@github.com:tborges/Node-Express-EJS-Template-Body-Parser.git # or clone your own fork
+git clone git@github.com:tborges/Node-Express-EJS-Template-Body-Parser.git
 cd Node-Express-EJS-Template-Body-Parser
 npm install
-node app.js
+npm start
 ```
 
-Feel free to fork, modify, and have fun with it. If you hit bugs, report issues on GitHub [here](https://github.com/tborges/Node-Express-EJS-Template-Body-Parser/issues). <img  src="http://www.smashingbuzz.com/wp-content/uploads/2011/12/Ant-moving-around.gif"  width="9%"><br>
-This sample app is available under the <a href='https://github.com/tborges/Node-Express-EJS-Template-Body-Parser/blob/master/LICENSE'>MIT License</a>.
+Open `http://localhost:3000`.
+
+## Project structure
+
+```txt
+.
+├── app.js
+├── controllers/
+│   ├── apiController.js
+│   └── htmlController.js
+├── public/
+│   ├── img/
+│   └── style.css
+└── views/
+    ├── index.ejs
+    └── person.ejs
+```
+
+## Available scripts
+
+- `npm start` — runs the app with `node app.js`
+- `npm test` — validates JavaScript syntax for core app files
+
+## Notes
+
+This repo is intentionally minimal so you can adapt it quickly for your own app or API.
+
+Licensed under the [MIT License](LICENSE).

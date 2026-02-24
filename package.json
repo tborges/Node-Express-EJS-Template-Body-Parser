@@ -1,17 +1,18 @@
 {
-  "name": "course",
+  "name": "minimal-express-starter-kit",
   "version": "1.0.0",
-  "description": "",
-  "main": "node-course.js",
+  "description": "Minimal Express starter kit with EJS templates and body-parser examples",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "node --check app.js && node --check controllers/htmlController.js && node --check controllers/apiController.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tborges/node-course.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tborges/node-course/issues"
   },
