@@ -8,7 +8,7 @@ body{
     font-weight: 100;
 }
 ol, ul li a {padding-right: 20px;font-weight: bold;font-size: 20px;}
-.form-content{position: fixed;text-align: right;top:20%;left:30%;font-size: 40px}
+.form-content{position: fixed;text-align: center;top:20%;justify-self:anchor-center;font-size: 40px}
 form{padding-top: 20px;}
 form input{font-size: 40px;padding: 0px;}
 button{padding: 10px 20px 10px 20px;font-size: 20px;}

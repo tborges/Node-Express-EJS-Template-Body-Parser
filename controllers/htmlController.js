@@ -23,12 +23,22 @@ module.exports = function (app) {
         //res.send('<html><head></head><body><h1>Person:' + req.params.id + '</h1><h4>more examples go to http://expressjs.com/en/guide/routing.html</h4></body></html>');
     });
 
-// BODYPARSER form post
-app.post('/person', urlencodedParser, function(req, res) {
-   res.send('Thank you!');
-   console.log(req.body.firstname);
-   console.log(req.body.lastname);
+// BODY PARSER form POST
+app.post('/person', urlencodedParser, function (req, res) {
+
+  const firstName = req.body.firstname;
+  const lastName = req.body.lastname;
+
+  console.log(firstName);
+  console.log(lastName);
+
+  res.render('thankyou', {
+    firstName,
+    lastName
+  });
+
 });
+
 // BODYPARSER sending JSON data
 app.post('/personjson', jsonParser, function(req, res) {
 	res.send('Thank you for the JSON data!');
