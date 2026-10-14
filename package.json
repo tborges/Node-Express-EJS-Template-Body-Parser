@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/tborges/node-course#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.5",
     "ejs": "^3.1.7",
-    "express": "^4.16.3"
+    "express": "^4.22.2"
   },
   "overrides": {
     "minimatch": "^5.1.7"
